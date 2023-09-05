@@ -7,6 +7,8 @@ import AuthHeader from "./auth/AuthHeader";
 import AdminWelcomeBanner from "./admin/AdminWelcomeBanner";
 import AdminEmptyUI from "./admin/AdminEmptyUI";
 import AdminSettingHeader from "./admin/AdminSettingHeader";
+import AdminAnalyticBox from "./admin/AdminAnalyticBox";
+import AdminTopAnalytic from "./admin/AdminTopAnalytic";
 
 // common components
 
@@ -74,5 +76,7 @@ export {
   AdminWelcomeBanner,
   AdminSettingHeader,
   AdminEmptyUI,
-  StoreFrontHeader
+  StoreFrontHeader,
+  AdminAnalyticBox,
+  AdminTopAnalytic
 };

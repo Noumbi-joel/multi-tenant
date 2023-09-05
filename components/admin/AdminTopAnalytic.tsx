@@ -7,7 +7,7 @@ type Props = {
   customers?: ICustomer[];
 };
 
-const AdminProductAnalytic = ({
+const AdminTopAnalytic = ({
   title,
   emptyTitle,
   products,
@@ -81,4 +81,4 @@ const AdminProductAnalytic = ({
   );
 };
 
-export default AdminProductAnalytic;
+export default AdminTopAnalytic;

@@ -60,10 +60,10 @@ export const CUSTOMERS_SORT = [
 ];
 
 export const SETTINGS = [
-  { id: 1, title: "General", link: "/dashboard/settings?i=s&nav=gen" },
-  { id: 2, title: "Account", link: "/dashboard/settings?i=s&nav=acc" },
-  { id: 3, title: "Socials", link: "/dashboard/settings?i=s&nav=soc" },
-  { id: 4, title: "Legal", link: "/dashboard/settings?i=s&nav=leg" },
+  { id: 1, title: "General", link: "/_sites/site/dashboard/settings?i=s&nav=gen" },
+  { id: 2, title: "Account", link: "/_sites/site/dashboard/settings?i=s&nav=acc" },
+  { id: 3, title: "Socials", link: "/_sites/site/dashboard/settings?i=s&nav=soc" },
+  { id: 4, title: "Legal", link: "/_sites/site/dashboard/settings?i=s&nav=leg" },
 ];
 
 export const STORE_CATEGORIES = [
@@ -82,32 +82,32 @@ export const VERTICAL_HEADER_ITEMS = [
   {
     id: 1,
     value: "Dashboard",
-    link: "/dashboard/?index",
+    link: "/_sites/site/dashboard/?index",
   },
   {
     id: 2,
     value: "Products",
-    link: "/dashboard/products/?i=p",
+    link: "/_sites/site/dashboard/products/?i=p",
   },
   {
     id: 3,
     value: "Categories",
-    link: "/dashboard/categories?i=ca",
+    link: "/_sites/site/dashboard/categories?i=ca",
   },
   {
     id: 4,
     value: "Orders",
-    link: "/dashboard/orders?i=o",
+    link: "/_sites/site/dashboard/orders?i=o",
   },
   {
     id: 5,
     value: "Customers",
-    link: "/dashboard/customers?i=cu",
+    link: "/_sites/site/dashboard/customers?i=cu",
   },
   {
     id: 6,
     value: "Settings",
-    link: "/dashboard/settings?i=s&nav=gen",
+    link: "/_sites/site/dashboard/settings?i=s&nav=gen",
   },
 ];
 

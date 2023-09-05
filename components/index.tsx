@@ -9,6 +9,7 @@ import AdminEmptyUI from "./admin/AdminEmptyUI";
 import AdminSettingHeader from "./admin/AdminSettingHeader";
 import AdminAnalyticBox from "./admin/AdminAnalyticBox";
 import AdminTopAnalytic from "./admin/AdminTopAnalytic";
+import AdminHeader from "./admin/AdminHeader";
 
 // common components
 
@@ -78,5 +79,6 @@ export {
   AdminEmptyUI,
   StoreFrontHeader,
   AdminAnalyticBox,
-  AdminTopAnalytic
+  AdminTopAnalytic,
+  AdminHeader
 };

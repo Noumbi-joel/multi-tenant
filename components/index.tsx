@@ -11,6 +11,7 @@ import AdminAnalyticBox from "./admin/AdminAnalyticBox";
 import AdminTopAnalytic from "./admin/AdminTopAnalytic";
 import AdminHeader from "./admin/AdminHeader";
 import AdminOrderProductList from "./admin/AdminOrderProductList";
+import AdminTransactionTable from "./admin/AdminTransactionTable";
 
 // common components
 
@@ -81,5 +82,7 @@ export {
   StoreFrontHeader,
   AdminAnalyticBox,
   AdminTopAnalytic,
-  AdminHeader
+  AdminHeader,
+  AdminOrderProductList,
+  AdminTransactionTable,
 };

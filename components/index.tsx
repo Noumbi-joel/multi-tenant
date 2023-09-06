@@ -16,7 +16,10 @@ import AdminTransactionTable from "./admin/AdminTransactionTable";
 // common components
 
 // UI components
-import StoreFrontHeader from "./store/StoreFrontTitle";
+import StoreFrontTitle from "./store/StoreFrontTitle";
+import StoreFrontProductList from "./store/StoreFrontProductList";
+import StoreFrontCategoryList from "./store/StoreFrontCategoryList";
+
 
 import {
   ThemeProvider,
@@ -78,11 +81,14 @@ export {
 
   AdminWelcomeBanner,
   AdminSettingHeader,
-  AdminEmptyUI,
-  StoreFrontHeader,
+  AdminEmptyUI,  
   AdminAnalyticBox,
   AdminTopAnalytic,
   AdminHeader,
   AdminOrderProductList,
   AdminTransactionTable,
+  
+  StoreFrontTitle,
+  StoreFrontCategoryList,
+  StoreFrontProductList
 };

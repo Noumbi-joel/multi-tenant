@@ -10,6 +10,7 @@ import AdminSettingHeader from "./admin/AdminSettingHeader";
 import AdminAnalyticBox from "./admin/AdminAnalyticBox";
 import AdminTopAnalytic from "./admin/AdminTopAnalytic";
 import AdminHeader from "./admin/AdminHeader";
+import AdminOrderProductList from "./admin/AdminOrderProductList";
 
 // common components
 

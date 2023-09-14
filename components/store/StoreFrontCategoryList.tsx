@@ -1,7 +1,6 @@
 import { StoreFrontTitle, Typography } from "@/components";
 
 type Props = {
-  data: ICreateCategory[];
   mainTitleCat: string;
   mainTitleCatDetails: string;
 };

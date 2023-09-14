@@ -1,22 +1,17 @@
 import React from "react";
-import {
-  AdminEmptyUI,
-  AdminHeader,
-  AdminLayout,
-} from "@/components";
+import { AdminEmptyUI, AdminHeader, AdminLayout } from "@/components";
 
-export default function ProductsPage() {
-
+export default function CategoriesPage() {
   return (
     <AdminLayout>
       <div className="min-h-screen w-screen px-5 sm:px-10 pt-5">
         <AdminHeader
-          title="Products"
+          title="Categories"
           amount={0}
-          link="/_sites/site/dashboard/products/create?i=p"
+          link="/_sites/site/dashboard/categories/create?i=ca"
         />
-
-      <AdminEmptyUI title="products" />
+        
+        <AdminEmptyUI title="categories" />
       </div>
     </AdminLayout>
   );

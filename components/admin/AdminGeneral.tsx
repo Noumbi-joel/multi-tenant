@@ -1,10 +1,11 @@
-import React from "react";
-import { AdminLayout } from "@/components";
+import React from 'react'
 
-type Props = {};
+type Props = {}
 
 const AdminGeneral = (props: Props) => {
-  return <AdminLayout>AdminGeneral</AdminLayout>;
-};
+  return (
+    <div>AdminGeneral</div>
+  )
+}
 
-export default AdminGeneral;
+export default AdminGeneral

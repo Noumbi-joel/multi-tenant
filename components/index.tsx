@@ -4,6 +4,16 @@ import dynamic from "next/dynamic";
 import AuthHeader from "./auth/AuthHeader";
 
 // admin components
+import AdminGenAccount from "./admin/AdminGenAccount";
+import AdminGenFavicon from "./admin/AdminGenFavicon";
+import AdminGenForm from "./admin/AdminGenForm";
+import AdminGenLarge from "./admin/AdminGenLarge";
+import AdminGenLogo from "./admin/AdminGenLogo";
+import AdminGeneral from "./admin/AdminGeneral";
+import AdminLegal from "./admin/AdminLegal";
+import AdminSocials from "./admin/AdminSocials";
+import AdminSettingAccount from "./admin/AdminSettingAccount";
+
 import AdminWelcomeBanner from "./admin/AdminWelcomeBanner";
 import AdminEmptyUI from "./admin/AdminEmptyUI";
 import AdminSettingHeader from "./admin/AdminSettingHeader";
@@ -118,6 +128,15 @@ export {
   AdminCustomerDetails,
   AdminOrderDeliveryDetails,
   AdminOrderPaid,
+  AdminGenAccount,
+  AdminGenFavicon,
+  AdminGenForm,
+  AdminGenLarge,
+  AdminGenLogo,
+  AdminSettingAccount,
+  AdminGeneral,
+  AdminLegal,
+  AdminSocials,
   StoreFrontTitle,
   StoreFrontCategoryList,
   StoreFrontProductList,

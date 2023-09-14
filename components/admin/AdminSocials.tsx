@@ -1,10 +1,12 @@
 import React from 'react'
+import { AdminLayout } from "@/components";
+
 
 type Props = {}
 
 const AdminSocials = (props: Props) => {
   return (
-    <div>AdminSocials</div>
+    <AdminLayout>AdminSocials</AdminLayout>
   )
 }
 

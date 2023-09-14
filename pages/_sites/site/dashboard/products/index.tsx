@@ -6,12 +6,12 @@ export default function CategoriesPage() {
     <AdminLayout>
       <div className="min-h-screen w-screen px-5 sm:px-10 pt-5">
         <AdminHeader
-          title="Categories"
+          title="Products"
           amount={0}
-          link="/_sites/site/dashboard/categories/create?i=ca"
+          link="/_sites/site/dashboard/products/create?i=ca"
         />
         
-        <AdminEmptyUI title="categories" />
+        <AdminEmptyUI title="Products" />
       </div>
     </AdminLayout>
   );

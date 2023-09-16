@@ -16,15 +16,10 @@ export default function SettingsPage() {
       <div className="min-h-screen w-screen px-5 sm:px-10 pt-5">
         <AdminSettingHeader router={router} />
 
-        {router.get("nav") === "gen" ? (
-          <AdminGeneral />
-        ) : router.get("nav") === "acc" ? (
-          <AdminSettingAccount />
-        ) : router.get("nav") === "soc" ? (
-          <AdminSocials />
-        ) : (
-          <AdminLegal />
-        )}
+        <AdminGeneral />
+        <AdminSettingAccount />
+        <AdminSocials />
+        <AdminLegal />
       </div>
     </AdminLayout>
   );

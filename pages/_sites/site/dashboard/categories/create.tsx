@@ -8,7 +8,7 @@ export default function CreateCategoryPage() {
         <AdminHeader
           create
           title={"Create category"}
-          link="/_sites/site/dashboard/categories/create?i=ca"
+          link="/_sites/site/dashboard/categories?i=ca"
         />
 
         <div className="h-[1px] bg-gray-300 mt-11"></div>

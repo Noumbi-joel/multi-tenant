@@ -10,7 +10,7 @@ export default function CreateProductPage({}: Props) {
         <AdminHeader
           create
           title={"Create product"}
-          link="/_sites/site/dashboard/products/create?i=p"
+          link="/_sites/site/dashboard/products?i=p"
         />
 
         <div className="h-[1px] bg-gray-300 mt-11" />

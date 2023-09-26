@@ -6,7 +6,7 @@ import {
     Typography,
   } from "@/components";
   
-  export default function DashboardHomePage() {
+  export default function DashboardPage() {
     return (
       <AdminLayout>
         <div className="min-h-screen w-screen px-5 sm:px-10 pt-5">
@@ -24,31 +24,29 @@ import {
   
           <div className="grid grid-cols-1 xl:grid-cols-3 gap-5">
             <AdminAnalyticBox
-              graphImage="todaySalesGraph.svg"
+              graphImage=""
               amount={"0"}
-              title="today's sales"
+              title=""
             />
             <AdminAnalyticBox
-              graphImage="totalSalesGraph.svg"
+              graphImage=""
               amount={"0"}
-              title="total sales"
+              title=""
             />
             <AdminAnalyticBox
-              graphImage="totalOrdersGraph.svg"
+              graphImage=""
               amount={"0"}
-              title="total orders"
+              title=""
             />
           </div>
   
           <div className="grid grid-cols-1 xl:grid-cols-2 gap-5 mt-5">
             <AdminTopAnalytic
-              title="top products"
-              emptyTitle="No products"
+              title=""
               products={[]}
             />
             <AdminTopAnalytic
-              title="top customers"
-              emptyTitle="No customers"
+              title=""
               customers={[]}
             />
           </div>

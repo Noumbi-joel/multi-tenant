@@ -9,7 +9,7 @@ export default function AdminLayout({
 }) {
 const [isVisible, setIsVisible] = React.useState(false);
   return (
-    <div className="flex">
+    <div className="flex bg-white">
       <ErrorBoundary FallbackComponent={ErrorOverlay}>
         <VerticalNav />
         <Drawer

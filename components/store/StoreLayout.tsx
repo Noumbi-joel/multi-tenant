@@ -15,7 +15,7 @@ export default function StoreLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="bg-white">
       <ErrorBoundary FallbackComponent={ErrorOverlay}>
         <Head>
           <link rel="shortcut icon" href={"/favicon.ico"} />

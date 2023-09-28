@@ -6,7 +6,6 @@ import AuthHeader from "./auth/AuthHeader";
 // admin components
 import AdminGenAccount from "./admin/AdminGenAccount";
 import AdminGenFavicon from "./admin/AdminGenFavicon";
-import AdminGeneralForm from "./admin/AdminGeneralForm";
 import AdminGenLarge from "./admin/AdminGenLarge";
 import AdminGenLogo from "./admin/AdminGenLogo";
 import AdminGeneral from "./admin/AdminGeneral";
@@ -14,7 +13,6 @@ import AdminLegal from "./admin/AdminLegal";
 import AdminSocials from "./admin/AdminSocials";
 import AdminSettingAccount from "./admin/AdminSettingAccount";
 
-import AdminWelcomeBanner from "./admin/AdminWelcomeBanner";
 import AdminEmptyUI from "./admin/AdminEmptyUI";
 import AdminSettingHeader from "./admin/AdminSettingHeader";
 import AdminAnalyticBox from "./admin/AdminAnalyticBox";
@@ -110,7 +108,6 @@ export {
   Chip,
   Carousel,
   Avatar,
-  AdminWelcomeBanner,
   AdminSettingHeader,
   AdminEmptyUI,
   AdminAnalyticBox,
@@ -130,7 +127,6 @@ export {
   AdminOrderPaid,
   AdminGenAccount,
   AdminGenFavicon,
-  AdminGeneralForm,
   AdminGenLarge,
   AdminGenLogo,
   AdminSettingAccount,

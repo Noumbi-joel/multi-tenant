@@ -1,10 +1,6 @@
 import React from "react";
 
-type Props = {
-  graphImage: string;
-  amount: string;
-  title: string;
-};
+type Props = {};
 
 const AdminAnalyticBox = (props: Props) => {
   return <div>AdminAnalyticBox</div>;

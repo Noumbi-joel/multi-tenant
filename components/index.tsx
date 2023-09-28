@@ -1,5 +1,3 @@
-import dynamic from "next/dynamic";
-
 // auth components
 import AuthHeader from "./auth/AuthHeader";
 
@@ -12,8 +10,8 @@ import AdminGeneral from "./admin/AdminGeneral";
 import AdminLegal from "./admin/AdminLegal";
 import AdminSocials from "./admin/AdminSocials";
 import AdminSettingAccount from "./admin/AdminSettingAccount";
-
 import AdminEmptyUI from "./admin/AdminEmptyUI";
+import AdminFileContainer from "./admin/AdminFileContainer";
 import AdminSettingHeader from "./admin/AdminSettingHeader";
 import AdminAnalyticBox from "./admin/AdminAnalyticBox";
 import AdminTopAnalytic from "./admin/AdminTopAnalytic";
@@ -22,10 +20,6 @@ import AdminOrderProductList from "./admin/AdminOrderProductList";
 import AdminTransactionTable from "./admin/AdminTransactionTable";
 import VerticalNav from "./admin/VerticalNav";
 import AdminLayout from "./admin/AdminLayout";
-import AccountSettings from "./admin/AccountSettings";
-import NavLinks from "./admin/NavLinks";
-import CreateProductForm from "./admin/CreateProductForm";
-import CreateCategoryForm from "./admin/CreateCategoryForm";
 import AdminCustomerDetails from "./admin/AdminCustomerDetails";
 import AdminCustomerSummary from "./admin/AdminCustomerSummary";
 import AdminOrderPaid from "./admin/AdminOrderPaid";
@@ -109,6 +103,7 @@ export {
   Carousel,
   Avatar,
   AdminSettingHeader,
+  AdminFileContainer,
   AdminEmptyUI,
   AdminAnalyticBox,
   AdminTopAnalytic,
@@ -117,10 +112,6 @@ export {
   AdminTransactionTable,
   VerticalNav,
   AdminLayout,
-  AccountSettings,
-  NavLinks,
-  CreateProductForm,
-  CreateCategoryForm,
   AdminCustomerSummary,
   AdminCustomerDetails,
   AdminOrderDeliveryDetails,

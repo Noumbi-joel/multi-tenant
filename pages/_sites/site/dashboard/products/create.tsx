@@ -1,4 +1,13 @@
-import { AdminHeader, AdminLayout, CreateProductForm } from "@/components";
+import {
+  AdminFileContainer,
+  Button,
+  Input,
+  Textarea,
+  Typography,
+  Chip,
+  AdminHeader,
+  AdminLayout,
+} from "@/components";
 import React from "react";
 
 type Props = {};
@@ -12,10 +21,9 @@ export default function CreateProductPage({}: Props) {
           title={"Create product"}
           link="/_sites/site/dashboard/products?i=p"
         />
-
         <div className="h-[1px] bg-gray-300 mt-11" />
-
-        <CreateProductForm />
+        
+        {/* create product form here */}
       </div>
       <div className="hidden sm:h-5" />
     </AdminLayout>

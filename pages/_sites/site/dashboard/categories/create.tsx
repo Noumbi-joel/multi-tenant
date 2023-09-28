@@ -1,4 +1,4 @@
-import { AdminHeader, AdminLayout, CreateCategoryForm } from "@/components";
+import { AdminHeader, AdminLayout } from "@/components";
 import React from "react";
 
 export default function CreateCategoryPage() {
@@ -11,8 +11,9 @@ export default function CreateCategoryPage() {
           link="/_sites/site/dashboard/categories?i=ca"
         />
 
-        <div className="h-[1px] bg-gray-300 mt-11"></div>
-        <CreateCategoryForm />
+        <div className="h-[1px] bg-gray-300 mt-11" />
+        
+        {/* create a category form here */}
       </div>
     </AdminLayout>
   );

@@ -6,7 +6,7 @@ import AuthHeader from "./auth/AuthHeader";
 // admin components
 import AdminGenAccount from "./admin/AdminGenAccount";
 import AdminGenFavicon from "./admin/AdminGenFavicon";
-import AdminGenForm from "./admin/AdminGenForm";
+import AdminGeneralForm from "./admin/AdminGeneralForm";
 import AdminGenLarge from "./admin/AdminGenLarge";
 import AdminGenLogo from "./admin/AdminGenLogo";
 import AdminGeneral from "./admin/AdminGeneral";
@@ -130,7 +130,7 @@ export {
   AdminOrderPaid,
   AdminGenAccount,
   AdminGenFavicon,
-  AdminGenForm,
+  AdminGeneralForm,
   AdminGenLarge,
   AdminGenLogo,
   AdminSettingAccount,

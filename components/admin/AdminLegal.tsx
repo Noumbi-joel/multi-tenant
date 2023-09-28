@@ -1,12 +1,39 @@
-import React from 'react'
+import { Button, Textarea, Typography } from "@/components";
+import React from "react";
 
-
-type Props = {}
-
-const AdminLegal = (props: Props) => {
+const AdminLegal = () => {
+ 
   return (
-    <div>AdminLegal</div>
-  )
-}
+    <div>
+      <div className="my-4">
+        <Typography className="text-base text-grayscale-900">Legal</Typography>
+        <Typography className="text-sm text-grayscale-500">
+          Write down legal and policy information below and revise them whenever
+          you want.
+        </Typography>
+      </div>
 
-export default AdminLegal
+      <form>
+        <Textarea
+          label="Refund policy"
+          color="indigo"
+        />
+        <Textarea
+          label="Privacy policy"
+          color="indigo"
+        />
+        <Textarea
+          label="Shipping policy"
+          color="indigo"
+        />
+        <div className="my-5">
+          <Button className="bg-primary-base" type="submit">
+            Save
+          </Button>
+        </div>
+      </form>
+    </div>
+  );
+};
+
+export default AdminLegal;

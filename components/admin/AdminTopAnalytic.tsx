@@ -20,7 +20,7 @@ const AdminTopAnalytic = ({
           </Typography>
         </div>
 
-        {products!.length <= 0 && (
+        {products?.length! <= 0 && (
           <div className="h-full flex items-center justify-center">
             <Typography className="text-sm text-grayscale-500">
               No Products
@@ -53,7 +53,7 @@ const AdminTopAnalytic = ({
         </Typography>
       </div>
 
-      {customers!.length <= 0 && (
+      {customers?.length! <= 0 && (
         <div className="h-full flex items-center justify-center">
           <Typography className="text-sm text-grayscale-500">
             No Customers

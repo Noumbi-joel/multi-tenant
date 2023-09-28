@@ -57,8 +57,8 @@ const AdminHeader = ({
             variant="outlined"
             size="sm"
             className="border border-primary-base"
-            onClick={() => {}}
-          >
+            onClick={() => router.push(link!)}
+            >
             <Typography className="text-primary-base capitalize">
               Back
             </Typography>

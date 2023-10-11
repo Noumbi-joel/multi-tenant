@@ -21,7 +21,7 @@ export default function StoreFrontProductDetailsPage() {
         <StoreFrontProductDetails />
       </div>
       <StoreFrontTitle title="You may also like" content="" />
-      <StoreFrontProductList />
+      <StoreFrontProductList data={[]} />
     </StoreLayout>
   );
 }

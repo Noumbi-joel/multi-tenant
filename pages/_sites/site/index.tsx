@@ -18,7 +18,7 @@ export default function StoreFrontHomePage() {
         />
       </section>
 
-      <StoreFrontProductList />
+      <StoreFrontProductList data={[]} />
 
       <StoreFrontCategoryList
         mainTitleCat={"Dummy title category"}

@@ -1,11 +1,11 @@
 import React from "react";
-import { StoreLayout, StoreFrontCheckoutForm } from "@/components";
+import { StoreLayout } from "@/components";
 
 export default function StoreFrontCheckoutPage() {
   return (
     <StoreLayout>
       <div className="grid place-content-center mt-6 w-full h-screen bg-grayscale-300">
-        <StoreFrontCheckoutForm />
+        {/* checkout form here */}
       </div>
     </StoreLayout>
   );

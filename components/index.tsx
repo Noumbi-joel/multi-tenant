@@ -41,7 +41,6 @@ import StoreFrontMenuFilters from "./store/StoreFrontMenuFilters";
 import StoreFrontCart from "./store/StoreFrontCart";
 import StoreFrontMenu from "./store/StoreFrontMenu";
 import StoreFrontProductDetails from "./store/StoreFrontProductDetails";
-import StoreFrontCheckoutForm from "./store/StoreFrontCheckoutForm";
 import StoreFrontCheckoutDone from "./store/StoreFrontCheckoutDone";
 
 import {
@@ -136,6 +135,5 @@ export {
   StoreFrontMenuFilters,
   StoreFrontCart,
   StoreFrontProductDetails,
-  StoreFrontCheckoutForm,
   StoreFrontCheckoutDone,
 };

@@ -52,7 +52,7 @@ export const sortCustomerByDate = (a: ICustomer, b: ICustomer) => {
   return 0;
 };
 
-export const sortOrderByDate = (a: ICheckoutOrder, b: ICheckoutOrder) => {
+export const sortOrderByDate = (a: IOrder, b: IOrder) => {
   if (a.createdAt < b.createdAt) return 1;
   if (a.createdAt > b.createdAt) return -1;
   return 0;

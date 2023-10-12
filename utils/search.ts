@@ -34,15 +34,15 @@ export const searchCustomerName = (
   
   export const searchOrderName = (
     e: React.ChangeEvent<HTMLInputElement>,
-    items: ICheckoutOrder[],
-    filteredItems: ICheckoutOrder[],
+    items: IOrder[],
+    filteredItems: IOrder[],
     setSearch: React.Dispatch<React.SetStateAction<string>>,
     dispatch: Dispatch<AnyAction>
   ) => {
     const value = e.target.value;
   
     if (value) {
-      const newData = filteredItems.filter((item: ICheckoutOrder) => {
+      const newData = filteredItems.filter((item: IOrder) => {
         const itemData = item.contactDetails.fullName
           ? item.contactDetails.fullName.toUpperCase()
           : "".toUpperCase();

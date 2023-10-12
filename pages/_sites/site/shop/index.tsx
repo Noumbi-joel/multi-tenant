@@ -18,7 +18,7 @@ export default function StoreFrontShopPage() {
 
         <StoreFrontFilters />
       </div>
-      <StoreFrontProductList />
+      <StoreFrontProductList data={[]} />
     </StoreLayout>
   );
 }

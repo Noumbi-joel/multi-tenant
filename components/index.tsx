@@ -23,6 +23,7 @@ import AdminLayout from "./admin/AdminLayout";
 import AdminCustomerDetails from "./admin/AdminCustomerDetails";
 import AdminCustomerSummary from "./admin/AdminCustomerSummary";
 import AdminOrderPaid from "./admin/AdminOrderPaid";
+import AdminSearchBar from "./admin/AdminSearchBar";
 import AdminOrderDeliveryDetails from "./admin/AdminOrderDeliveryDetails";
 
 // common components
@@ -122,6 +123,7 @@ export {
   AdminSettingAccount,
   AdminGeneral,
   AdminLegal,
+  AdminSearchBar,
   AdminSocials,
   StoreFrontTitle,
   StoreFrontCategoryList,

@@ -25,6 +25,9 @@ import AdminCustomerSummary from "./admin/AdminCustomerSummary";
 import AdminOrderPaid from "./admin/AdminOrderPaid";
 import AdminSearchBar from "./admin/AdminSearchBar";
 import AdminOrderDeliveryDetails from "./admin/AdminOrderDeliveryDetails";
+import AdminSelectAll from "./admin/AdminSelectAll";
+import AdminProductTable from "./admin/AdminProductTable";
+import AdminCategoryTable from "./admin/AdminCategoryTable";
 
 // common components
 import ErrorOverlay from "./common/ErrorOverlay";
@@ -124,6 +127,9 @@ export {
   AdminGeneral,
   AdminLegal,
   AdminSearchBar,
+  AdminProductTable,
+  AdminCategoryTable,
+  AdminSelectAll,
   AdminSocials,
   StoreFrontTitle,
   StoreFrontCategoryList,

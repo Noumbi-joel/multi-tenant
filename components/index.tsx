@@ -50,6 +50,7 @@ import StoreFrontCart from "./store/StoreFrontCart";
 import StoreFrontMenu from "./store/StoreFrontMenu";
 import StoreFrontProductDetails from "./store/StoreFrontProductDetails";
 import StoreFrontCheckoutDone from "./store/StoreFrontCheckoutDone";
+import StoreFrontSelect from "./store/StoreFrontSelect";
 
 import {
   ThemeProvider,
@@ -152,4 +153,5 @@ export {
   StoreFrontCart,
   StoreFrontProductDetails,
   StoreFrontCheckoutDone,
+  StoreFrontSelect
 };

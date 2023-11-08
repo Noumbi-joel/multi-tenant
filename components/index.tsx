@@ -28,6 +28,10 @@ import AdminOrderDeliveryDetails from "./admin/AdminOrderDeliveryDetails";
 import AdminSelectAll from "./admin/AdminSelectAll";
 import AdminProductTable from "./admin/AdminProductTable";
 import AdminCategoryTable from "./admin/AdminCategoryTable";
+import AdminCustomerTable from "./admin/AdminCustomerTable";
+import AdminWelcomeBanner from "./admin/AdminWelcomeBanner";
+import AdminGeneralForm from "./admin/AdminGeneralForm";
+import AdminOrderTable from "./admin/AdminOrderTable";
 
 // common components
 import ErrorOverlay from "./common/ErrorOverlay";
@@ -106,8 +110,12 @@ export {
   Carousel,
   Avatar,
   AdminSettingHeader,
+  AdminCustomerTable,
+  AdminGeneralForm,
+  AdminWelcomeBanner,
   AdminFileContainer,
   AdminEmptyUI,
+  AdminOrderTable,
   AdminAnalyticBox,
   AdminTopAnalytic,
   AdminHeader,

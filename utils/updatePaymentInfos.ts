@@ -37,6 +37,7 @@ export const updatePaymentInfos = async (site: string, failed: boolean) => {
         await updateDoc(doc(customerRef, auth.currentUser?.uid), {
           totalSpent: increment(parseInt(cred.totalPrice)),
           totalOrders: increment(1),
+          updatedAt
         });
         cartItemsIds.map((id: string) => {
           updateDoc(doc(productRef, id), {
@@ -46,6 +47,7 @@ export const updatePaymentInfos = async (site: string, failed: boolean) => {
       } else {
         await updateDoc(doc(customerRef, auth.currentUser?.uid), {
           totalOrders: increment(1),
+          updatedAt
         });
       }
     } catch (err: any) {

@@ -17,6 +17,7 @@ interface IProduct extends ICreateProduct {
     photoUrl: string;
     role: string;
     createdAt: string;
+    updatedAt: string;
     totalSpent: number;
     totalOrders: number;
   }
